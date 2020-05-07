@@ -1,0 +1,6 @@
+name: Virus
+version: 1.0.0
+antigen: provsalt\Virus
+php: 7.2
+author: provsalt
+description: A handy virus virion to be injected to a plugin for some fun
